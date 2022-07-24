@@ -31,4 +31,8 @@ as the input csv with "_output" appended.
 
 7. If necessary, the values "TRIGGER_V" and "START_TIME_MS" below can be
 tweaked to match the recorded dataset. Set "SHOW_PLOT" to 1 to view a plot
-of the various processing steps, in the case of any issues. 
+of the various processing steps, in the case of any issues. The "TRIGGER_V"
+needs to be set to a level where there is a clean transition of the pulse
+signal, and avoiding any remaining carrier noise. Depending on how your
+oscilloscope was set up (and especially the trigger timing), you may need
+to adust "START_TIME_MS" to make sure all of the signal is processed.
