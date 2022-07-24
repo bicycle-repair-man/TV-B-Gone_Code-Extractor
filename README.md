@@ -30,4 +30,5 @@ as the input csv with "_output" appended.
 6. Enjoy!
 
 7. If necessary, the values "TRIGGER_V" and "START_TIME_MS" below can be
-tweaked to match the recorded dataset.
+tweaked to match the recorded dataset. Set "SHOW_PLOT" to 1 to view a plot
+of the various processing steps, in the case of any issues. 
