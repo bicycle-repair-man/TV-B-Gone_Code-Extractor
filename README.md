@@ -36,3 +36,7 @@ needs to be set to a level where there is a clean transition of the pulse
 signal, and avoiding any remaining carrier noise. Depending on how your
 oscilloscope was set up (and especially the trigger timing), you may need
 to adust "START_TIME_MS" to make sure all of the signal is processed.
+
+8. This is a new (and fun!) project for me. I have only decoded 3 remotes
+so far, so any issues that occur will probably be new to me too. Some 
+legwork will be required!
